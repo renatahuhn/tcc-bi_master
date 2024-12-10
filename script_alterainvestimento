@@ -1,0 +1,7 @@
+ALTER TABLE investimento
+ADD COLUMN pk_investimento SERIAL PRIMARY KEY;
+
+ALTER TABLE investimento
+ADD CONSTRAINT fk_portfolio FOREIGN KEY (projeto) REFERENCES portfolio(nomeprojeto);
+
+SELECT * FROM investimento;
