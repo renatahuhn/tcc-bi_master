@@ -1,13 +1,13 @@
 ﻿# CRIAÇÃO DE DASHBOARD PARA ACOMPANHAMENTO DO PLANEJAMENTO ESTRATÉGICO DE INVESTIMENTOS EM UMA EMPRESA DO RAMO DE PETRÓLEO
 
 #### Aluno: Renata Huhn Nunes (https://github.com/renatahuhn)
-#### Orientador: Anderson Nascimento (https://github.com/link_do_github).
+#### Orientador: Anderson Nascimento (https://github.com/insightds).
 
 ---
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-https://github.com/link_do_repositorio
+https://github.com/renatahuhn/tcc-bi_master.git
 Portifolio.xlsm
 Alimentação Investimentos Quinquenio_vf.xlsx
 mm_ planoestrategico.architect
