@@ -7,51 +7,39 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-https://github.com/renatahuhn/tcc-bi_master.git
-Portifolio.xlsm
-Alimentação Investimentos Quinquenio_vf.xlsx
-mm_ planoestrategico.architect
-mm_planoestrategico.png
-script_alterainvestimento.sql
-script_carrega_dimensao.sql
-ETL01_CarregaTabelaPortfolio.ktr
-ETL02_CarregaTabelaInvestimento.ktr
-ETL03_CarregaDim-Portfolio.ktr
-ETL04_Carrega-ft-investimento.ktr
-JOB-AtualizaDados.kjb
-ETL01_CarregaPlanilhaPortfolio.png
-ETL02_CarregaPlanilhaInvestimento.png
-ETL03-CarregaDimPotfolio.png
-ETL04_CarregaDimInvestimento.png
-JOB-AtualizaDados.png
-ST_tbl_portfolio.png
-ST_tbl_investimento.png
-DW_dim_portfolio.png
-DW_ft_investimento.png
-Dahsboard_PlanoEstrategico_vf.pbix
+[Portifolio.xlsm](https://github.com/renatahuhn/tcc-bi_master)
+[Alimentação Investimentos Quinquenio_vf.xlsx](https://github.com/renatahuhn/tcc-bi_master)
+[mm_ planoestrategico.architect](https://github.com/renatahuhn/tcc-bi_master)
+[mm_planoestrategico.png](https://github.com/renatahuhn/tcc-bi_master)
+[script_alterainvestimento.sql](https://github.com/renatahuhn/tcc-bi_master)
+[script_carrega_dimensao.sql](https://github.com/renatahuhn/tcc-bi_master)
+[ETL01_CarregaTabelaPortfolio.ktr](https://github.com/renatahuhn/tcc-bi_master)
+[ETL02_CarregaTabelaInvestimento.ktr](https://github.com/renatahuhn/tcc-bi_master)
+[ETL03_CarregaDim-Portfolio.ktr](https://github.com/renatahuhn/tcc-bi_master)
+[ETL04_Carrega-ft-investimento.ktr](https://github.com/renatahuhn/tcc-bi_master)
+[JOB-AtualizaDados.kjb](https://github.com/renatahuhn/tcc-bi_master)
+[ETL01_CarregaPlanilhaPortfolio.png](https://github.com/renatahuhn/tcc-bi_master)
+[ETL02_CarregaPlanilhaInvestimento.png](https://github.com/renatahuhn/tcc-bi_master)
+[ETL03-CarregaDimPotfolio.png](https://github.com/renatahuhn/tcc-bi_master)
+[ETL04_CarregaDimInvestimento.png](https://github.com/renatahuhn/tcc-bi_master)
+[JOB-AtualizaDados.png](https://github.com/renatahuhn/tcc-bi_master)
+[ST_tbl_portfolio.png](https://github.com/renatahuhn/tcc-bi_master)
+[ST_tbl_investimento.png](https://github.com/renatahuhn/tcc-bi_master)
+[DW_dim_portfolio.png](https://github.com/renatahuhn/tcc-bi_master)
+[DW_ft_investimento.png](https://github.com/renatahuhn/tcc-bi_master)
+[Dahsboard_PlanoEstrategico_vf.pbix](https://github.com/renatahuhn/tcc-bi_master)
 
 
 ### Resumo
 
 Uma empresa do ramo de petróleo realiza anualmente o planejamento dos investimentos para os próximos anos. O presente trabalho apresenta o desenvolvimento de um banco de dados e um dashboard para acompanhamento do planejamento destes investimentos, em suas múltiplas versões até a aprovação final, para uma área de projetos de obras em refinarias de petróleo. O objetivo final do trabalho era o desenvolvimento de um dashboard com as informações solicitadas pela gerência responsável. Para desenvolvimento foram realizadas uma modelagem multidimensional, criação de uma datawarehouse, transformação dos dados com o PDI e criação do dashboard. Com a conclusão do presente trabalho, foi possível migrar as apresentações que antes eram realizadas em apresentações de PowerPoint para o PowerBI, reduzindo significativamente o esforço de atualização após revisões no planejamento.
 
-### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
-
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
 ### 1. Introdução
 
 Este documento tem por finalidade coletar, analisar e definir as principais necessidades do projeto do estudo de caso do Planejamento de Investimentos em uma Empresa do Ramo de Petróleo. O documento procura demonstrar os principais problemas atuais e o foco investigativo desejado pelo cliente.
 
 ### 2. Modelagem
-
-2.1. Descrição do Estudo de Caso
+*2.1. Descrição do Estudo de Caso*
 
 Uma empresa do ramo de petróleo (daqui em diante chamada de “Empresa X”)realiza obras em refinarias de petróleo visando a aumentar seus ativos ou a realizar melhorias na infraestrutura. Cada obra é tratada na empresa como um projeto e o conjunto de projetos em andamento compõem o que é chamado de “Portfólio de Investimentos” da companhia.
 Com o objetivo de planejar o fluxo de caixa e a necessidade de capital, a Empresa X realiza anualmente o planejamento dos seus investimentos em obras para os próximos anos. Esse planejamento é chamado de “Plano Estratégico”. São geradas muitas versões de planilhas, uma vez que há muitas gerências responsáveis pela execução de cada um dos projetos e o planejamento pode ser revisado ao longo do período chamado “janela de planejamento”. Os valores são planejados a partir do ano atual até o fim do projeto (visão prospectiva), mas o enfoque principal do planejamento é no investimento do quinquênio (próximos 5 anos).
@@ -66,14 +54,14 @@ Warehouse, seja desenvolvido um dashboard com os dados mais relevantes
 sobre os investimentos planejados para os próximos anos, de forma que os
 gestores possam ter informações rápidas a qualquer momento.
 
-2.2. Descrição do Modelo Transacional e Modelo Multidimensional
+*2.2. Descrição do Modelo Transacional e Modelo Multidimensional*
 
 A Empresa X possui um sistema de informação integrado onde são
 armazenados os dados de planejamento dos investimentos, bem como informações gerais de todos os projetos que compõem o portfólio de investimentos da companhia, além de outros dados que fogem ao escopo do projeto e por isso não serão listados aqui.
 Todos os dados utilizados no processo serão coletados do banco de
 dados disponibilizado pela Empresa X, contendo os valores de investimento planejados. As tabelas usadas como modelo de input para o presente trabalho encontram-se neste Repository: “Alimentação Investimentos Quinquenio_vf.xlsx” e “Portfolio.xlsm”.
 
-2.2.1. Definição de Requisitos
+*2.2.1. Definição de Requisitos*
 Foram realizadas entrevistas com os stakeholders para compreender as
 necessidades das gerências e também para identificar a viabilidade do
 cumprimento dos requisitos. Além disso, as apresentações em PowerPoint realizadas em anos anteriores foram usadas como principais referências para elaboração do dashboard.
@@ -89,7 +77,7 @@ vii)Com que frequência: O dashboard será atualizado sob demanda, ao fim de cad
 Os requisitos identificados nas entrevistas foram:
 Análise dos totais planejados no Plano Estratégico 2024-2028 (antigo) e Plano Estratégico 25-29 (atual); análise dos desvios entre os dois planos estratégicos; visão anual do valor total planejado; detalhamento anual do investimento planejado por projeto na visão prospectiva (2025+); análise detalhada dos 5 maiores desvios por projeto (a maior e a menor), com suas respectivas justificativas; análise das principais causas de desvio, por rubrica; detalhamento por gerência do investimento planejado por projeto no quinquênio 2025 a 2029, e justificativas para desvios.
 
-2.2.2. Processo de BI e Modelo Multidimensional
+*2.2.2. Processo de BI e Modelo Multidimensional*
 A estruturação do processo de BI no projeto foi da seguinte forma: entrada e armazenamento de dados no PostgreSQL, tratamento de dados no Pentaho Data Integration e por fim a análise dos dados usando o PowerBI.
 A análise dos dados é a etapa final do processo e depende de cada uma das
 etapas anteriores para o pleno funcionamento e o software Power BI foi escolhido para realizar a última etapa por ser a ferramenta oficial adotada pela Companhia.
@@ -97,7 +85,7 @@ O mecanismo de banco de dados PostgreSQL foi escolhido para o armazenamento dos 
 de desenvolvimento e pelo custo zero de licença. O software escolhido para a carga do Data Warehouse foi o Pentaho Data Integration, que oferece uma integração satisfatória entre os outros componentes do processo e também pelas possibilidades que dispõem para a transformação dos dados provenientes do modelo transacional. O processo tem como entrada de dados um único banco de dados relacional nomeado “st_planoestrategico”. O datawarehouse criado foi nomeado “dw_planoestrategico”.
 O modelo multidimensional foi orientado pelas necessidades elucidadas com os stakeholders, bem como pelos dados disponíveis no banco de dados transacional. O diagrama Entidade Relacionamento (“modelo estrela”) encontra-se neste Repository: “mm_planoestrategico.architect”.
 
-2.3. Elaboração do Datawarehouse
+*2.3. Elaboração do Datawarehouse*
 
 O Data Warehouse será a fonte integradora de informações da empresa, a tecnologia será utilizada com o intuito de servir de base para a camada de aplicação que será responsável por fornecer dados para a tomada de decisão na organização.
 Dentre as estratégias para arquitetura Data Warehouse existentes (Global, Independente ou Integrada), foi escolhida a arquitetura Independente para o escopo do projeto em função de existência somente do banco de dados plano_estrategico.
@@ -108,7 +96,7 @@ Dentre as arquiteturas físicas para o Data Warehouse (On-Premises ou Nuvem), op
 - Facilidade de gerenciamento;
 - Contenção de custos.
 
-2.4. Projeto de ETL
+*2.4. Projeto de ETL*
 
 O projeto de ETL usou apenas uma fonte: o banco de dados disponibilizado pela Empresa X, contendo dados sobre investimentos e projetos. Foi usado o software Pentaho Data Integration para realizar a extração e tratamento dos dados. Todos os arquivos estão neste Repository, sob os nomes: “ETL01_CarregaTabelaPortfolio”, “ETL02_CarregaTabelaInvestimento.krt”, “ETL03_CarregaDimPortfolio.krt”,“ETL04_Carrega-ft-investimento.krt”,”JOB-AtualizaDados.kjb”.
 Para a carga do stage, carregamos as duas planilhas do modelo transacional. Para carga da planilha “Portfolio”, carregamos a planilha salva nas pastas de rede da gerência PMO, realizamos a correção dos strings, para apagar eventuais espaços desnecessários e normalizar a escrita dos elementos da planilha, colunas foram renomeadas para melhor leitura dos bancos de dados.
@@ -125,7 +113,7 @@ As informações foram inseridas no dashboard de forma a demonstrar de
 forma fácil e intuitiva todos os requisitos do cliente levantados durante a fase de entrevistas.
 O dashboard elaborado pode ser encontrado neste Repository sob o nome “Dashboard Plano Estrategico_vf.pbix” 
 Este dashboard apresenta a visualização das informações solicitadas pelos clientes durante o levantamento de requisitos. Apresenta os valores aprovados do Plano Estratégico realizado no ano de 2023 e os valores planejados no Plano Estratégico em aprovação no ano de 2024. Além disso, é apresentada a comparação entre esses dois Planos Estratégicos para identificação de desvios. Há visualizações distintas, onde são possíveis estratificações dos valores por ano, por gerência e/ou por projeto, bem como visualização das principais causas e justificativas para desvios entre Planos.
-O dashboard foi aprovado pelas partes interessadas e publicado no Wokspace Premium da gerência responsável pela consolidação e apresentação dos dados(Gerencia PMO – projec management office). A partir disso o dashboard pôde ser compartilhado via link online para consulta e visualização das partes interessas em tempo real. A atualização do dashboard é feita a cada encerramento de etapa de revisão de dados, conforme calendário acordado entre as partes interessadas.
+O dashboard foi aprovado pelas partes interessadas e publicado no Wokspace Premium da gerência responsável pela consolidação e apresentação dos dados(Gerencia PMO – projec management office). A partir disso o dashboard pôde ser compartilhado via link online para consulta e visualização das partes interessas em tempo real. A atualização do dashboard é feita a cada encerramento de etapa de revisão de dados, conforme calendário acordado entre as partes interessadas. O dashboard vem sendo utilizado constantemente nas reuniões de aprovação do orçamento e reduziu consideravelmente o esforço de atualização do material de apresentação do investimento para tomada de decisão.
  
 
 ### 4. Conclusões
